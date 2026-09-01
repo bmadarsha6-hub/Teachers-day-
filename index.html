@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Happy Teacher's Day — Ashok Vardhan Naidu</title>
+<meta name="description" content="A little Teacher's Day surprise for Ashok Vardhan Naidu.">
+<style>
+:root{--ink:#4d2635;--rose:#b94d70;--pink:#ffe8ef;--cream:#fffaf5;--gold:#d9a441}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:linear-gradient(180deg,#fff7f3,#ffeef3);overflow-x:hidden}
+button{font:inherit}.screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px;position:relative}
+.card{width:min(850px,94vw);text-align:center;background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border:1px solid rgba(185,77,112,.18);border-radius:30px;padding:48px 28px;box-shadow:0 20px 70px rgba(105,35,60,.13)}
+.kicker{letter-spacing:3px;text-transform:uppercase;font-size:.78rem;color:#9b5b70}.emoji{font-size:3rem}.title{font-size:clamp(2.2rem,7vw,4.5rem);margin:12px 0;color:#7c304d}.subtitle{font-size:clamp(1rem,3vw,1.3rem);line-height:1.7;max-width:650px;margin:auto}
+.ribbon-area{margin:38px auto 5px;position:relative;height:125px;max-width:520px;display:flex;align-items:center;justify-content:center}.ribbon{height:14px;width:100%;background:#c7375f;border-radius:10px;box-shadow:0 5px 0 #92213f}.scissors{position:absolute;font-size:2.5rem;cursor:pointer;transition:.35s;filter:drop-shadow(0 5px 5px #999)}.scissors:hover{transform:scale(1.1) rotate(-8deg)}.cut-hint{font-size:.9rem;opacity:.7}
+.hidden{display:none!important}.fade{animation:fade .9s ease both}@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+nav{position:fixed;z-index:20;left:50%;bottom:16px;transform:translateX(-50%);background:rgba(255,255,255,.9);border:1px solid #f1ccd7;border-radius:999px;padding:8px;display:flex;gap:6px;box-shadow:0 10px 30px #6e29421c}nav a,nav button{border:0;background:transparent;color:#7d3450;padding:9px 13px;border-radius:999px;text-decoration:none;cursor:pointer}nav a:hover,nav button:hover{background:#ffe1e9}
+.teacher-photo{width:145px;height:145px;border-radius:50%;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 30%,#fff,#ffd9e4 60%,#e8a7bb);font-size:4rem;border:7px solid #fff;box-shadow:0 12px 35px #7e30431c}
+h2{font-size:clamp(2rem,6vw,3.2rem);margin:8px}.name{color:#a63e61}.date{letter-spacing:2px;color:#a25a70;font-size:.8rem;margin:18px}.copy{font-size:1.1rem;line-height:1.9;max-width:680px;margin:18px auto}
+.envelope-wrap{perspective:1000px;margin:35px auto;cursor:pointer;width:min(360px,85vw);height:235px;position:relative}.envelope{position:absolute;inset:0;background:#f6c6d4;border-radius:8px;box-shadow:0 18px 45px #6e294225;overflow:hidden}.envelope:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 49%,#e9a9bc 50%,transparent 51%),linear-gradient(225deg,transparent 49%,#e9a9bc 50%,transparent 51%)}.flap{position:absolute;left:0;top:0;width:100%;height:58%;background:#f9d4df;clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:.8s;z-index:3}.seal{position:absolute;z-index:4;left:50%;top:43%;transform:translate(-50%,-50%);font-size:2rem;transition:.8s}.letter{position:absolute;z-index:2;left:8%;right:8%;top:13%;height:78%;background:#fffdf8;padding:20px;border-radius:4px;transform:translateY(20%);transition:.8s;box-shadow:0 4px 15px #6e294215}.envelope.open .flap{transform:rotateX(180deg)}.envelope.open .seal{opacity:0}.envelope.open .letter{transform:translateY(-10%)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:35px auto}.mini{padding:26px 18px;border-radius:22px;background:#fff;border:1px solid #f3d3dc;box-shadow:0 12px 35px #6e294211}.mini .ico{font-size:2.2rem}.mini p{line-height:1.6}
+.quote{font-size:clamp(1.4rem,4vw,2.2rem);line-height:1.5;max-width:750px;margin:35px auto}.signature{font-size:1.2rem;margin-top:35px}
+.float{position:fixed;pointer-events:none;animation:rise 5s linear forwards;font-size:1.2rem;z-index:50}@keyframes rise{from{transform:translateY(0) rotate(0);opacity:0}15%{opacity:1}to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+#home{background:radial-gradient(circle at 50% 40%,#fff 0,#fff3f6 45%,#ffe8ef 100%)}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.card{padding:36px 18px}.screen{padding:18px}.ribbon-area{height:105px}.copy{font-size:1rem}nav{width:calc(100% - 24px);justify-content:center}nav a,nav button{padding:8px 10px;font-size:.82rem}}
+</style>
+</head>
+<body>
+<section id="home" class="screen">
+<div class="card fade">
+<div class="emoji">🌷</div><div class="kicker">A little surprise awaits</div>
+<h1 class="title">For Someone Extra Special</h1>
+<p class="subtitle">Behind every confident student, there is a teacher who believed in them first.</p>
+<div class="ribbon-area"><div class="ribbon" id="ribbon"></div><button class="scissors" id="cut" aria-label="Cut the ribbon">✂️</button></div>
+<div class="cut-hint">TAP THE SCISSORS TO ENTER</div>
+</div>
+</section>
+
+<main id="content" class="hidden">
+<section id="celebrate" class="screen">
+<div class="card fade">
+<div class="teacher-photo">👨‍🏫</div>
+<div class="kicker">A day to celebrate you</div>
+<h2>Happy <span class="name">Teacher's Day</span></h2>
+<h3>Dear <span class="name">Ashok Vardhan Naidu Sir</span> 🌷</h3>
+<p class="copy">You don't just teach lessons from books. You teach us to believe, to dream, to try again, and to become better every single day.</p>
+<p class="copy">Your words become memories, your guidance becomes strength, and your kindness becomes a part of who we become.</p>
+<div class="date">5 SEPTEMBER • TEACHER'S DAY</div>
+</div>
+</section>
+
+<section id="letter" class="screen">
+<div class="card fade">
+<div class="kicker">A message from the heart</div><h2>A Little Letter 💌</h2>
+<div class="envelope-wrap" id="envWrap" aria-label="Open the envelope">
+<div class="envelope" id="envelope"><div class="flap"></div><div class="seal">💗</div><div class="letter"><strong>Dear Sir,</strong><p style="line-height:1.6">Thank you for every lesson, every correction, every smile, and every little moment that helped us grow.</p><p style="line-height:1.6">You made learning feel special and ordinary days feel meaningful. We are truly grateful for everything you do. 🌷</p></div></div>
+</div>
+<p class="cut-hint">TAP THE ENVELOPE TO OPEN</p>
+</div>
+</section>
+
+<section id="messages" class="screen">
+<div class="card fade">
+<div class="kicker">More than a teacher</div><h2>You Inspire Us 💕</h2>
+<div class="grid">
+<div class="mini"><div class="ico">📚</div><h3>You Teach</h3><p>You turn difficult lessons into moments of discovery and curiosity.</p></div>
+<div class="mini"><div class="ico">🌱</div><h3>You Inspire</h3><p>You encourage us to dream bigger and believe that we can achieve more.</p></div>
+<div class="mini"><div class="ico">💖</div><h3>You Care</h3><p>Your patience, kindness and support make every student feel valued.</p></div>
+</div>
+<div class="quote">“A teacher's influence can stay with a student long after the classroom is left behind.”</div>
+<p class="copy">Thank you for teaching with patience, guiding with kindness, and inspiring with heart. Your lessons may end with the bell, but their impact never does.</p>
+<div class="signature">With Gratitude & Love 💗<br><strong>Happy Teacher's Day, Sir!</strong></div>
+</div>
+</section>
+</main>
+
+<nav id="nav" class="hidden">
+<a href="#home">🏠 Home</a><a href="#celebrate">🌷 Wish</a><a href="#letter">💌 Letter</a><a href="#messages">💖 Message</a>
+<button id="musicBtn">🔇</button>
+</nav>
+
+<audio id="music" loop preload="none">
+<!-- Optional: put your own royalty-free music file named music.mp3 in this folder and uncomment the source below -->
+<!-- <source src="music.mp3" type="audio/mpeg"> -->
+</audio>
+<script>
+const cut=document.getElementById('cut'), ribbon=document.getElementById('ribbon'), content=document.getElementById('content'), nav=document.getElementById('nav');
+cut.addEventListener('click',()=>{
+  ribbon.style.transition='1s'; ribbon.style.transform='scaleX(0)'; ribbon.style.opacity='0';
+  cut.style.transform='scale(1.5) rotate(-20deg)'; cut.disabled=true;
+  setTimeout(()=>{content.classList.remove('hidden');nav.classList.remove('hidden');document.getElementById('celebrate').scrollIntoView({behavior:'smooth'}); burst();},650);
+});
+const env=document.getElementById('envelope');
+document.getElementById('envWrap').addEventListener('click',()=>{env.classList.toggle('open'); if(env.classList.contains('open')) burst();});
+function burst(){for(let i=0;i<18;i++){const s=document.createElement('span');s.className='float';s.textContent=['🌷','💗','✨','🌸','💖'][Math.floor(Math.random()*5)];s.style.left=(10+Math.random()*80)+'vw';s.style.bottom='10px';s.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(s);setTimeout(()=>s.remove(),6500)}}
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>burst()));
+const music=document.getElementById('music'), musicBtn=document.getElementById('musicBtn');
+musicBtn.addEventListener('click',async()=>{if(music.paused){try{await music.play();musicBtn.textContent='🔊'}catch(e){alert('Add a music.mp3 file to the folder to enable music.')}}else{music.pause();musicBtn.textContent='🔇'}});
+</script>
+</body>
+</html>
